@@ -1,4 +1,4 @@
-% A generic template for computing Cart-Pole Dynamics using QP Control
+% A generic template for implementing MPC for Cart-Pole(pendulum).
 
 syms l M m g real  % Parameters/Parametric variables of the dynamic system
 syms x theta dx dtheta u real % State and input variables of the system
